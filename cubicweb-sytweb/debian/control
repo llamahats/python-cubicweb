@@ -1,0 +1,25 @@
+Source: cubicweb-sytweb
+Section: web
+Priority: optional
+Maintainer: LOGILAB S.A. (Paris, FRANCE) <contact@logilab.fr>
+Build-Depends:
+ debhelper (>= 9),
+ dh-python,
+ python3-all,
+ python3-setuptools,
+ python3-pytest,
+Standards-Version: 4.3.0
+X-Python3-Version: >= 3.4
+
+Package: python3-cubicweb-sytweb
+Architecture: all
+Depends:
+ ${python3:Depends},
+ ${misc:Depends},
+Description: new cube
+ CubicWeb is a semantic web application framework.
+ .
+ new cube
+ .
+ This package will install all the components you need to run an application
+ using the cubicweb-sytweb cube.

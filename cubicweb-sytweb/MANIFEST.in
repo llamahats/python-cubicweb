@@ -1,0 +1,10 @@
+include *.py
+include */*.py
+recursive-include cubicweb_sytweb *.py
+recursive-include cubicweb_sytweb/data *.gif *.png *.ico *.css *.js
+recursive-include cubicweb_sytweb/i18n *.po
+recursive-include cubicweb_sytweb/wdoc *
+recursive-include test/data bootstrap_cubes *.py
+include *.ini
+prune debian
+prune cubicweb-sytweb.spec
